@@ -1,0 +1,6 @@
+C:\Users\formacio\source\repos\Ciudades\Ciudades\bin\Debug\Ciudades.exe.config
+C:\Users\formacio\source\repos\Ciudades\Ciudades\bin\Debug\Ciudades.exe
+C:\Users\formacio\source\repos\Ciudades\Ciudades\bin\Debug\Ciudades.pdb
+C:\Users\formacio\source\repos\Ciudades\Ciudades\obj\Debug\Ciudades.csprojAssemblyReference.cache
+C:\Users\formacio\source\repos\Ciudades\Ciudades\obj\Debug\Ciudades.exe
+C:\Users\formacio\source\repos\Ciudades\Ciudades\obj\Debug\Ciudades.pdb
