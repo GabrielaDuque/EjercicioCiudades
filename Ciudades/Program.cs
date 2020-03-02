@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,13 +55,12 @@ namespace Ciudades
 
             //Fase 3
 
-            string[] ciudadesModificadas = { "B4rcelon4", "M4drid", "M4l4g4", "V4lenci4", "C4diz", "S4nt4nder"
-        };
-            Array.Sort(ciudadesModificadas);
-            foreach (string s in ciudadesModificadas)
-            {
-                Console.WriteLine(s);
-            }
+            Console.WriteLine(ciudad1.Replace('a', '4'));
+            Console.WriteLine(ciudad2.Replace('a', '4'));
+            Console.WriteLine(ciudad3.Replace('a', '4'));
+            Console.WriteLine(ciudad4.Replace('a', '4'));
+            Console.WriteLine(ciudad5.Replace('a', '4'));
+            Console.WriteLine(ciudad6.Replace('a', '4'));
             Console.ReadKey();
 
             //Fase 4
@@ -81,22 +80,158 @@ namespace Ciudades
             {
                 Console.Write(item.ToString());
             }
-
             Console.ReadKey();
-
-
             Array.Reverse(Barcelona);
 
-            // Print.
             foreach (var item in Barcelona)
-               
-                {
-                
+
+            {
+
                 Console.Write(item.ToString());
             }
             Console.WriteLine();
 
             Console.ReadKey();
+
+
+            string[] Madrid = new string[6];
+
+            Madrid[0] = "m";
+            Madrid[1] = "a";
+            Madrid[2] = "d";
+            Madrid[3] = "r";
+            Madrid[4] = "i";
+            Madrid[5] = "d";
+
+            foreach (var item in Madrid)
+            {
+                Console.Write(item.ToString());
+            }
+            Console.ReadKey();
+            Array.Reverse(Madrid);
+            foreach (var item in Madrid)
+
+            {
+
+                Console.Write(item.ToString());
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
+
+            string[] Cadiz = new string[5];
+
+            Cadiz[0] = "c";
+            Cadiz[1] = "a";
+            Cadiz[2] = "d";
+            Cadiz[3] = "i";
+            Cadiz[4] = "z";
+           
+
+            foreach (var item in Cadiz)
+            {
+                Console.Write(item.ToString());
+            }
+            Console.ReadKey();
+            Array.Reverse(Cadiz);
+            foreach (var item in Cadiz)
+
+            {
+
+                Console.Write(item.ToString());
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
+
+            string[] malaga = new string[6];
+
+            malaga[0] = "m";
+            malaga[1] = "a";
+            malaga[2] = "l";
+            malaga[3] = "a";
+            malaga[4] = "g";
+            malaga[5] = "a";
+           
+
+
+            foreach (var item in malaga)
+            {
+                Console.Write(item.ToString());
+            }
+            Console.ReadKey();
+            Array.Reverse(malaga);
+            foreach (var item in malaga)
+
+            {
+
+                Console.Write(item.ToString());
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
+
+            string[] Santander = new string[9];
+
+            Santander[0] = "s";
+            Santander[1] = "a";
+            Santander[2] = "n";
+            Santander[3] = "t";
+            Santander[4] = "a";
+            Santander[5] = "n";
+            Santander[6] = "d";
+            Santander[7] = "e";
+            Santander[8] = "r";
+            foreach (var item in Santander)
+            {
+                Console.Write(item.ToString());
+            }
+            Console.ReadKey();
+            Array.Reverse(Santander);
+
+            foreach (var item in Santander)
+
+            {
+
+                Console.Write(item.ToString());
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
+
+            string[] Valencia = new string[8];
+
+            Valencia[0] = "v";
+            Valencia[1] = "a";
+            Valencia[2] = "l";
+            Valencia[3] = "e";
+            Valencia[4] = "n";
+            Valencia[5] = "c";
+            Valencia[6] = "i";
+            Valencia[7] = "a";
+            
+            foreach (var item in Valencia)
+            {
+                Console.Write(item.ToString());
+            }
+            Console.ReadKey();
+            Array.Reverse(Valencia);
+
+            foreach (var item in Valencia)
+
+            {
+
+                Console.Write(item.ToString());
+            }
+            Console.WriteLine();
+
+            Console.ReadKey();
+
+
+
+
+
+
         }
     }
 }
